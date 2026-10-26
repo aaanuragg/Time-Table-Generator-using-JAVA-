@@ -1,0 +1,6 @@
+# Database connection configuration template
+# Copy this file to 'db.properties' in this directory and replace with your local MySQL credentials.
+
+db.url=jdbc:mysql://localhost:3306/timetable_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=root
+db.password=your_mysql_password_here

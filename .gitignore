@@ -1,0 +1,32 @@
+# Build outputs
+target/
+*.class
+
+# Third-party libraries (managed via pom.xml)
+lib/
+
+# Local database configuration with sensitive passwords
+db.properties
+src/main/resources/db.properties
+
+# IDE and Editor configurations
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# Log files
+*.log
+logs/
+
+# Exported timetable documents
+*.pdf
+*.xlsx
+*.xls
+
+# Operating system files
+.DS_Store
+Thumbs.db
